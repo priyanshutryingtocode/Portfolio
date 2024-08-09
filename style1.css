@@ -1,0 +1,86 @@
+nav
+{
+    height: 80px;
+    font-size: 20px;
+}
+
+
+
+body
+{
+    background-color: black;
+    /* background-image: url(./Untitled\ design.png);
+    background-position: center;
+    background-size: cover; */
+    color: antiquewhite;
+    background-image: url("./Dark3.jpg");
+    
+}
+
+
+.NAVBAR
+{   
+    margin: 0%;
+    
+}
+
+.navbar-brand
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid1
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.flexb1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 2;
+    height: 600px;
+    
+
+    
+}
+.flexb2
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    
+}
+
+.flexb1 > img
+{
+    border-radius: 50%;
+    height: 300px;
+    border: 2px solid azure;
+    
+}
+
+h5{
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+    .flexb1 > img
+    {
+        border-radius: 50%;
+        height: 150px;
+        border: 2px solid azure;
+
+    }
+}

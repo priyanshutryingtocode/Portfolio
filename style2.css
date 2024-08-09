@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+    background-image: url("./Dark3.jpg");
+}
+
+nav
+{
+    height: 80px;
+    font-size: 20px;
+}
+
+.NAVBAR
+{   
+    margin: 0%;
+    
+}
+
+.navbar-brand
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
