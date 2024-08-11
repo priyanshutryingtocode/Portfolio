@@ -4,6 +4,10 @@ body
     background-image: url("./Dark3.jpg");
 }
 
+a{
+    color: inherit;
+}
+
 nav
 {
     height: 80px;
